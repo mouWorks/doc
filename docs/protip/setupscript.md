@@ -5,7 +5,7 @@
 ## 第一步: 先裝好 homebrew
 
 * 已包在 `make all` 之內, 下 `make base` 就裝拉
-```shell 
+```bash
 #!/bin/sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```

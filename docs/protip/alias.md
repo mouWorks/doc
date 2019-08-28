@@ -6,7 +6,7 @@
 
 * `.bash_aliases`
 
-```shell
+```bash
 alias nah="git reset --hard && git clean -df"
 alias gs="git status"
 alias pl=" pull"
@@ -23,7 +23,7 @@ alias glp="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset 
 
 * 在你的(zshrc/bashrc)裡面加入以下
 
-```shell
+```bash
 if [ -f ~/.bash_aliases ]; then
 source ~/.bash_aliases
 fi
@@ -33,12 +33,12 @@ fi
 ### Nah
 
 * 復原目前本機的 Commit
-```shell
+```bash
 nah='git reset --hard && git clean -df'
 ```
 
 ### mygrep
 * 一個grep function, 抓取包含字串的內容 (會往下找)
-```shell
+```bash
 function mygrep { grep -rnIi "$1" . --color; }
 ```

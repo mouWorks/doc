@@ -19,7 +19,7 @@ sudo sh resources/cassandra_docker/cassandra-install.sh
 
 * cassandra-install.sh
 
-```shell
+```bash
 #!/usr/bin/env bash
 
 # ------ install docker ------
@@ -60,7 +60,7 @@ sudo docker pull cassandra
     sudo sh resources/cassandra_docker/localhost/cassandra-run.sh
 
 * cassandra-run.sh
-```shell
+```bash
 #!/usr/bin/env bash
 sudo docker run --name zuvio-cassandra --net=host -e "TZ=Asia/Taipei" -v /data/cassandra:/var/lib/cassandra -d --ulimit nofile=100000:100000 --ulimit nproc=32768 --ulimit memlock=-1:-1  --restart=on-failure:10 cassandra:3.11.3
 
