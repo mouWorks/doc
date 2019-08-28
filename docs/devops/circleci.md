@@ -23,7 +23,7 @@
     * 在看Workflow時, 選 `Rerun with SSH`
 * SSH 加上 Key
     * 加上 Key 的方法: [見Doc](https://circleci.com/docs/2.0/ssh-access-jobs/)
-    * 公司的 CircleCI, 是根據 `zuviordteam` 這個User去SSH登入
+    * 公司的 CircleCI, 是根據 `COMPANY` 這個User去SSH登入
     * `公司` 的 SSH Key: `id_rsa_COMPANY`
         1. 需要該把 key
         2. SSH時, 用該把 Key 去登入

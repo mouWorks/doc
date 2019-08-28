@@ -53,7 +53,7 @@ sudo docker pull cassandra
 
 可使用執行指令啟動
 
-    sudo docker run --name zuvio-cassandra --net=host -v /data/cassandra:/var/lib/cassandra -d --ulimit nofile=100000:100000 --ulimit nproc=32768 --ulimit memlock=-1:-1  --restart=on-failure:10 cassandra:3.11.3
+    sudo docker run --name COMPANY-cassandra --net=host -v /data/cassandra:/var/lib/cassandra -d --ulimit nofile=100000:100000 --ulimit nproc=32768 --ulimit memlock=-1:-1  --restart=on-failure:10 cassandra:3.11.3
 
 或使用 Script執行
 
