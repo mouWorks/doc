@@ -1,6 +1,7 @@
 # 104 New Start
-#### 104 hackathon demo
-#### project name: m1ga
+## 104 hackathon demo
+### [Project Repo](https://github.com/mouWorks/m1ga)
+### project name: m1ga
 
 * Team Members:
     * Mou.Wang (Backend/DevOps)
