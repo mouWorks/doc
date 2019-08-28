@@ -24,12 +24,17 @@ module.exports = {
           { text: 'DB備份', link: '/backend/DB_backup.html'},
           { text: 'Redis', link: '/backend/redis.html'},
           { text: 'Cassandra', link: '/backend/cassandra.html'},
+          { text: 'Socket', link: '/backend/socket.html'},
+          { text: 'Queue', link: '/backend/queue.html'},
+          { text: 'Php5升7', link: '/backend/upgrade_to_seven.html'},
         ]
       },
       {text: 'Protip', link: '/protip/',
         items: [
           { text: 'Alias', link: '/protip/alias.html'},
           { text: 'Makefile', link: '/protip/makefile.html'},
+          { text: 'SSH-Key', link: '/protip/ssh_key.html'},
+          { text: 'SetupScript', link: '/protip/setupscript.html'},
         ]
       },
       {text: 'LeetCode', link: '/leetcode/'},
