@@ -10,8 +10,9 @@
 
 ## 資料結構: 
 
-1. 資料主要位於 `.circleci` 資料夾
+1. 資料主要位於 `.circleci` 資料夾(專案目錄下)
 2. CI 的 yml 設定 `config.yml` 設定檔案
+3. 建議跟CI相關的都可以放在 `.circleci` 目錄下, 便於整理
 
 ![img](/config_yaml_file.png)
 

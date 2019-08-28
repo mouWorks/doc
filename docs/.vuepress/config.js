@@ -38,10 +38,17 @@ module.exports = {
         ]
       },
       {text: 'LeetCode', link: '/leetcode/'},
+      {text: 'Projects',
+        items: [
+          { text: 'M1GA', link: '/projects/m1ga.html'},
+          { text: 'WeddingHelper', link: '/projects/weddinghelper.html'},
+        ]
+      },
       {text: 'About',
         items: [
           { text: 'Site', link: 'https://m0u.work'},
           { text: 'Github', link: 'https://github.com/mouWorks'},
+          { text: 'Resume', link: '/resume/resume.html'},
         ]
       }
     ],
