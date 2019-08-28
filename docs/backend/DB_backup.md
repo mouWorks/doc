@@ -1,5 +1,10 @@
-DB 系統備份
----
+# DB 系統備份
+
+::: tip 
+<strong>特別感謝</strong>  此為 `rainlay` 大分享技術筆記, 在此感謝! @https://github.com/rainlay
+:::
+
+
 * mysql/mariadb/percona
 
 #### Mysql系 DB 分支

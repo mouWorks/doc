@@ -1,6 +1,9 @@
-# 公司內部 Redis 文件
+# 在 PHP 使用 Redis
 
-## 在 PHP 使用 Redis
+::: tip 
+<strong>特別感謝</strong>  此為 `rainlay` 大分享技術筆記, 在此感謝! @https://github.com/rainlay
+:::
+
 
 ### 語法
 

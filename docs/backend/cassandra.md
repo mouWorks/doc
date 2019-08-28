@@ -1,5 +1,10 @@
 # Cassandra
 
+::: tip 
+<strong>特別感謝</strong>  此為 `rainlay` 大分享技術筆記, 在此感謝! @https://github.com/rainlay
+:::
+
+
 ## 安裝教學
 
 公司使用 Cassandra 的方式為 Docker + Cassandra，Cassandra 版本為 3.11.3，所以請先安裝 Docker.

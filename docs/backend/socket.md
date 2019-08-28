@@ -1,5 +1,9 @@
 # Socket - GatewayWorker
 
+::: tip 
+<strong>特別感謝</strong>  此為 `rainlay` 大分享技術筆記, 在此感謝! @https://github.com/rainlay
+:::
+
 ## 名詞說明
 
 ### `workerman/gatewayworker` 是一套 Socket 框架
