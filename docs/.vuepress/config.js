@@ -16,6 +16,7 @@ module.exports = {
       {text: 'DevOps', link: '/devops/',
         items: [
           { text: 'CircleCI', link: '/devops/circleci.html'},
+          { text: 'Deployer', link: '/devops/deployer.html'},
         ]
       },
       {text: '後端', link: '/backend/',
@@ -29,9 +30,14 @@ module.exports = {
         ]
       },
       {text: 'LeetCode', link: '/leetcode/'},
-      {text: 'Site', link: 'https://www.m0u.work'}      
+      {text: 'About',
+        items: [
+          { text: 'Site', link: 'https://m0u.work'},
+          { text: 'Github', link: 'https://github.com/mouWorks'},
+        ]
+      }
     ],
-    sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2, // 侧边栏显示2级
+    sidebar: 'auto',
+    sidebarDepth: 1, // 侧边栏显示2级
   }
 };
