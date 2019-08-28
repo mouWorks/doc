@@ -9,7 +9,7 @@ module.exports = {
   serviceWorker: true, // 是否开启 PWA
   base: '/', // 这是部署到github相关的配置
   markdown: {
-    lineNumbers: false // 代码块显示行号
+    lineNumbers: true // 代码块显示行号
   },
   themeConfig: {
     nav:[ // 导航栏配置
@@ -21,11 +21,14 @@ module.exports = {
       },
       {text: '後端', link: '/backend/',
         items: [
-          { text: 'DB備份', link: '/backend/DB_backup.html'}
+          { text: 'DB備份', link: '/backend/DB_backup.html'},
+          { text: 'Redis', link: '/backend/redis.html'},
+          { text: 'Cassandra', link: '/backend/cassandra.html'},
         ]
       },
       {text: 'Protip', link: '/protip/',
         items: [
+          { text: 'Alias', link: '/protip/alias.html'},
           { text: 'Makefile', link: '/protip/makefile.html'},
         ]
       },

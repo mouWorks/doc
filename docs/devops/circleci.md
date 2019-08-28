@@ -16,9 +16,8 @@
 2. 資料主要位於 `.circleci` 資料夾
 3. CI 的 yml 設定 `config.yml` 設定檔案
 
-## BlackBelt Tip:
 
-### 如何SSH進去機器裡面看:
+::: tip ProTip: 如何SSH進去機器裡面看
 
 * `注意!` 進去機器一定要記得取消, 不然會算 Minute
     * 在看Workflow時, 選 `Rerun with SSH`
@@ -31,10 +30,12 @@
     * 去 `ssh` key folder, 下指令 
     * 如: `ssh -i id_rsa_COMPANY -p 64535 3.84.47.135`
     * 注意每次給的 IP 和 Port 會不相同.
+:::
 
-### 撰寫 config.yml
+::: tip ProTip: 撰寫 config.yml 要注意的
 
 * Yaml 有規定的特殊格式, 需要符合
 * 可用 CLI 檢查
     1. 先安裝 `circleci CLI`
     2. CLI 下指令 `circleci validate` 即可檢查
+:::

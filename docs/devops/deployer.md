@@ -52,11 +52,10 @@ sudo chmod g+s ./irs
 dep deploy {your_stage}
 ```
 
-## Black Belt Tip: 
+::: tip BlackBeltTip: 
 
-### 如果是 nginx server，一定要加上的設定
-
-### Deployer Nginx SymLink 的坑
+#### 如果是 nginx server，一定要加上的設定
+#### Deployer Nginx SymLink 的坑
 
 nginx server 如果 server root 使用 symbol link 的方式，有時會發生程式碼已經更新，但網頁讀取依然是舊版的問題。
 
@@ -66,5 +65,7 @@ nginx server 如果 server root 使用 symbol link 的方式，有時會發生�
 fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
 fastcgi_param DOCUMENT_ROOT $realpath_root;
 ```
+
+:::
 
 > A simple change from $document_root to $realpath_root in NGINX configuration would make NGINX pass the actual script path(resolved after following symlinks). Since PHP-FPM now gets the actual(always new on each build) path of the script, all caching issues would go away since paths of all files will be new now.
