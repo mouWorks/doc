@@ -13,7 +13,21 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '學習資源', link: '/learning/' },
+      {text: 'DevOps', link: '/devops/',
+        items: [
+          { text: 'CircleCI', link: '/devops/circleci.html'},
+        ]
+      },
+      {text: '後端', link: '/backend/',
+        items: [
+          { text: 'DB備份', link: '/backend/DB_backup.html'}
+        ]
+      },
+      {text: 'Protip', link: '/protip/',
+        items: [
+          { text: 'Makefile', link: '/protip/makefile.html'},
+        ]
+      },
       {text: 'LeetCode', link: '/leetcode/'},
       {text: 'Site', link: 'https://www.m0u.work'}      
     ],

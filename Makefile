@@ -11,4 +11,4 @@ pull:
 push: |
 	@echo ">>> Pushed to master and update github Pages"
 	git push origin master
-	npm deploy
+	npm run deploy
