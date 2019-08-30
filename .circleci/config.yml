@@ -46,7 +46,8 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - "82:1c:0c:7d:0b:46:ff:a4:9a:1d:17:ee:d3:68:fa:7e"
+            - "8d:ae:2c:a0:8b:4b:c0:49:d0:5e:d9:f0:d3:5c:8c:7e"
+            # key for mouworks.github.io repo
 
 #      - run:
 #          name: Testing Connect to Github
@@ -54,4 +55,4 @@ jobs:
 
       - run :
           name: generate static docs
-          command: sudo npm run deploy -y
+          command: sudo npm run deploy
