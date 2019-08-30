@@ -50,7 +50,7 @@ jobs:
 
       - run:
           name: Testing Connect to Github
-          command:  ssh -T -p 443 git@ssh.github.com
+          command:  ssh -y -T -p 443 git@ssh.github.com
 
       - run :
           name: generate static docs
