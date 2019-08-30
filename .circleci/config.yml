@@ -46,7 +46,7 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - "3f:6c:81:ec:0f:b5:f7:2f:28:d5:a8:fc:e7:be:a5:18"
+            - "82:1c:0c:7d:0b:46:ff:a4:9a:1d:17:ee:d3:68:fa:7e"
 
       - run:
           name: Testing Connect to Github
