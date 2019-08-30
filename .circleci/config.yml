@@ -19,6 +19,8 @@ jobs:
     steps:
       - checkout
 
+      - run: yarn global add vuepress
+        -
       # Download and cache dependencies
       - restore_cache:
           keys:
