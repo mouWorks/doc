@@ -25,6 +25,4 @@
   "build": "vuepress build docs",
   "deploy": "bash deploy.sh"
 }
-
-
 }

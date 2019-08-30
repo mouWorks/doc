@@ -42,7 +42,7 @@
 * Yaml 有規定的特殊格式, 需要符合
 * 可用 CLI 檢查
     1. 先安裝 `circleci CLI`
-    2. CLI 下指令 `circleci validate` 即可檢查
+    2. CLI 下指令 `circleci config validate` 即可檢查
 :::
 
 * Sample Yaml
