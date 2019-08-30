@@ -58,7 +58,7 @@ jobs:
       environment:
          MYSQL_ALLOW_EMPTY_PASSWORD: yes
          MYSQL_ROOT_PASSWORD: 'circleci'
-         MYSQL_DATABASE: zuvio_forum
+         MYSQL_DATABASE: COMPANY_DB
          TZ: "Asia/Taipei"  # Set The TimeZone
     environment: # Environment for a Job
        TZ: "Asia/Taipei" # Set The TimeZone

@@ -50,7 +50,7 @@ apt-get install mariadb-backup
 
 ```bash
 mariabackup --user=keeper \
-            --password=zuvion2irs \
+            --password=PASSWORD \
             --backup \
             --target-dir=/data/dbbackup/;
 ```
