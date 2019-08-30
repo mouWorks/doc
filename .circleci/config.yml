@@ -46,8 +46,12 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - "82:1c:0c:7d:0b:46:ff:a4:9a:1d:17:ee:d3:68:fa:7e"
+            - "3f:6c:81:ec:0f:b5:f7:2f:28:d5:a8:fc:e7:be:a5:18"
+
+      - run:
+          name: Testing Connect to Github
+          command:  ssh -T -p 443 git@ssh.github.com
 
       - run :
           name: generate static docs
-          command: sudo npm run deploy
+          command: sudo npm run deploy -y
