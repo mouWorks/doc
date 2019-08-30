@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
 
-      - run: npm install -g vuepress
+      - run: sudo npm install -g vuepress
 
       # Download and cache dependencies
       - restore_cache:
@@ -41,4 +41,4 @@ jobs:
             - "82:1c:0c:7d:0b:46:ff:a4:9a:1d:17:ee:d3:68:fa:7e"
       - run :
           name: generate static docs
-          command: npm run build
+          command: npm run deploy
